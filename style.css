@@ -1,0 +1,58 @@
+html { 
+    background: url(./supermarket.webp); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 99%;
+    animation: myMove 7s infinite;
+    border:3px solid black;
+    overflow: hidden;
+    
+  }
+
+body{
+    float: left;
+    margin-left: 20%;
+    margin-top: 1%;
+    border-radius: 15px 50px 30px;
+    background-color: none;
+} 
+  
+h1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+    color: rgb(160, 34, 34);
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+table{
+    border-collapse: collapse;
+    border: solid 5px rgb(216, 68, 68);   
+    margin:10px;
+    font-family: 'Zilla Slab', serif;
+    font-size: medium;
+}
+
+th{
+    border: solid 1px rgb(7, 0, 0);
+    padding :5px;
+    color: rgb(16, 31, 238);
+}
+
+tr,td{
+    border: solid 5px rgb(3, 0, 0);
+    padding :5px;
+    margin: 5px;
+    color: rgb(0, 0, 0);
+}
+
+#select-category{
+    float: right;
+    color: rgb(100, 31, 31);
+
+}
+

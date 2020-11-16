@@ -1,0 +1,98 @@
+{
+    "product": [
+        {
+            "serialNo": "1",
+            "name":" N95 Mask",
+            "quantity":"1",
+            "unit":"No",
+            "department": "Health Essentials",
+            "notes":"",
+            "price": "120"
+        },
+        {
+         "serialNo": "2",
+         "name":"Cabbage",
+         "quantity":"2",
+         "unit":" Kg ",
+         "department": "Vegetables & Fruits",
+         "notes":"",
+         "price": "40"
+     },
+     {
+         "serialNo": "3",
+         "name":"Onion",
+         "quantity":"5",
+         "unit":" Kg ",
+         "department": "Vegetables & Fruits",
+         "notes":"",
+         "price": "150"
+     },
+     {
+         "serialNo": "4",
+         "name":"Notebook",
+         "quantity":" 2 ",
+         "unit":"Pc ",
+         "department": "Stationary",
+         "notes":" Classmates",
+         "price": "100"
+     },
+     {
+         "serialNo": "5",
+         "name":"Pen",
+         "quantity":"2",
+         "unit":"Pc",
+         "department": "Stationary",
+         "notes":" Technotip",
+         "price": "20"     
+     },
+     {
+         "serialNo": "6",
+         "name":"Brown rice",
+         "quantity":"4",
+         "unit":"Kg",
+         "department": "Grains",
+         "notes":" Rice",
+         "price": "12"
+     },
+     {
+         "serialNo": "7",
+         "name":"Apple",
+         "quantity":"1",
+         "unit":"Kg",
+         "department": "Vegetables & Fruits",
+         "notes":" Red Apple",
+         "price": "120"
+     },
+     {
+         "serialNo": "8",
+         "name":"Wheat",
+         "quantity":"5 ",
+         "unit":" Kg ",
+         "department": "Grains",
+         "notes":"",
+         "price": "150"
+     },
+     {
+         "serialNo": "9",
+         "name":"Potato",
+         "quantity":"1",
+         "unit":"Kg",
+         "department": "Vegetables & Fruits",
+         "notes":"",
+         "price": "40"
+     },
+     {
+         "serialNo": "10",
+         "name":"Soap",
+         "quantity":"250",
+         "unit":"g",
+         "department": "Health Essentials",
+         "notes":"",
+         "price": "30"
+     }
+    ]
+ 
+ 
+ 
+ 
+ }

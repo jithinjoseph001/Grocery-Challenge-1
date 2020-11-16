@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery Shopping Cart</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&amp;display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <div id="container">
+    <!-- Header -->
+    <h1 >  Grocery Shopping List </h1>
+    
+    <!-- /Header ends here -->
+ <!-- Select Category -->
+ <div id="select-category">
+    <label>Select Category:</label>    
+    <select name="category-list" id="category-list" onchange="sortList();">
+        <option>All Items</option>
+        <option>Vegetables &amp; Fruits</option>
+        <option>Grains </option>
+        <option>Stationary</option>
+        <option>Health Essentials</option>
+    </select>
+    </div> <br>
+    <!-- Select Category ends here-->
+    
+     <br>
+       <!-- Table Body -->
+    <div id="grocery-list-table">
+        <table>
+            <tbody>
+                <tr>
+                    <th>S.No</th>
+                    <th>Item Name</th>
+                    <th>Quantity</th>
+                    <th>Unit</th>
+                    <th>Department</th>
+                    <th>Notes</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td> N95 Mask</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>Health Essentials</td>
+                    <td></td>
+                    <td>120</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Cabbage</td>
+                    <td></td>
+                    <td> Kg </td>
+                    <td>Vegetables & Fruits</td>
+                    <td></td>
+                    <td>40</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Onion</td>
+                    <td>5</td>
+                    <td> Kg </td>
+                    <td>Vegetables & Fruits</td>
+                    <td></td>
+                    <td>150</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Notebook</td>
+                    <td> 2 </td>
+                    <td>Pc </td>
+                    <td>Stationary</td>
+                    <td>Classmates</td>
+                    <td>100</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Pen</td>
+                    <td>2</td>
+                    <td>Pc</td>
+                    <td>Stationary</td>
+                    <td> Technotip</td>
+                    <td>20</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Brown rice</td>
+                    <td>4</td>
+                    <td>Kg</td>
+                    <td>Grains</td>
+                    <td> Rice</td>
+                    <td>120</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Apple</td>
+                    <td>1</td>
+                    <td>Kg</td>
+                    <td>Vegetables & Fruits</td>
+                    <td> Red Apple</td>
+                    <td>120</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>Wheat</td>
+                    <td>5 </td>
+                    <td> Kg </td>
+                    <td>Grains</td>
+                    <td></td>
+                    <td>150</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>Potato</td>
+                    <td>1</td>
+                    <td>Kg</td>
+                    <td>Vegetables & Fruits</td>
+                    <td></td>
+                    <td>30</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>Soap</td>
+                    <td>250</td>
+                    <td>g</td>
+                    <td>Health Essentials</td>
+                    <td></td>
+                    <td>30</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <!-- Table Body ends here -->
+
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
